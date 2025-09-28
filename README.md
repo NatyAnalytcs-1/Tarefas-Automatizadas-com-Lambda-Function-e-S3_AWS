@@ -13,7 +13,7 @@ O fluxo de trabalho segue os seguintes passos:
 3.  **Processamento e Armazenamento:** A função Lambda (`ProcessarNotasFiscais`) lê o conteúdo do arquivo, processa os dados e os insere em uma tabela no DynamoDB (`NotasFiscais`).
 4.  **Consulta via API:** Uma API REST, criada com o API Gateway, permite consultar os dados armazenados no DynamoDB através de endpoints HTTP (GET e POST), que são atendidos por outra função Lambda.
 
-![Diagrama da Arquitetura](https://i.imgur.com/u5v012c.png )
+![Diagrama da Arquitetura](imagem_2025-09-28_093715179.png )
 
 ---
 
